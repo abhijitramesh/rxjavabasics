@@ -6,15 +6,16 @@ import io.reactivex.schedulers.Schedulers;
 import java.util.Random;
 
 /**
- * Here I am using a computational Scheduler which returns a thread used for computational purpose
+ * Here I am using a Schedulers IO which creates a thread for IO-bound work
  */
-public class ComputationSchedulerClass {
+
+public class SchedulersIOClass {
     public static void main(String[] args) throws InterruptedException{
         Observable.just("A", "AB", "ABC")
                 .flatMap(v -> getLengthWithDelay(v)
                         .doOnNext(s -> System.out.println("Processing Thread "
                                 + Thread.currentThread().getName()))
-                        .subscribeOn(Schedulers.computation()))
+                        .subscribeOn(Schedulers.io()))
                 .subscribe(length -> System.out.println("Receiver Thread "
                         + Thread.currentThread().getName()
                         + ", Item length " + length));
