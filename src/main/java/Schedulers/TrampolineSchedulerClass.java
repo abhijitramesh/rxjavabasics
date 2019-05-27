@@ -17,7 +17,7 @@ public class TrampolineSchedulerClass{
             .subscribeOn(Schedulers.trampoline())
             .subscribe(length -> System.out.println("Recived in thread"+Thread.currentThread().getName()+"Item Length"+length));
 
-    Thread.sleep(10000);
+        Thread.sleep(10000);
     }
 
     protected static Observable<Integer> getLengthWithDelay(String v){
