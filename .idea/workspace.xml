@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6b4cb92-9cbe-4e4e-8d95-932343d1d77b" name="Default Changelist" comment="" />
+    <list default="true" id="e6b4cb92-9cbe-4e4e-8d95-932343d1d77b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Schedulers/SchedulerFromExcutorClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -36,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/TrampolineSchedulerClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
+              <caret line="31" column="5" selection-start-line="22" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/NewThreadClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/ComputationSchedulerClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="471">
+              <caret line="33" selection-start-line="11" selection-start-column="4" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,28 +72,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/SchedulerioClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/SchedulerFromExcutorClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-12-oracle/lib/src.zip!/java.base/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="349" column="29" selection-start-line="349" selection-start-column="29" selection-end-line="349" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Observable/Maybeclass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +148,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Schedulers/TrampolineSchedulerClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/Schedulers/NewThreadClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/Schedulers/ComputationSchedulerClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Schedulers/SchedulerioClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Schedulers/SchedulersClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Schedulers/SchedulersIOClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Schedulers/SchedulerFromExcutorClass.java" />
       </list>
     </option>
   </component>
@@ -231,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SchedulersIOClass">
+  <component name="RunManager" selected="Application.SchedulerFromExcutorClass">
     <configuration name="ComputationSchedulerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Schedulers.ComputationSchedulerClass" />
       <module name="rxjavabasics.main" />
@@ -247,6 +239,19 @@
     </configuration>
     <configuration name="NewThreadClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Schedulers.NewThreadClass" />
+      <module name="rxjavabasics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Schedulers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchedulerFromExcutorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Schedulers.SchedulerFromExcutorClass" />
       <module name="rxjavabasics.main" />
       <extension name="coverage">
         <pattern>
@@ -284,26 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrampolineSchedulerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Schedulers.TrampolineSchedulerClass" />
-      <module name="rxjavabasics.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Schedulers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SchedulerFromExcutorClass" />
         <item itemvalue="Application.SchedulersIOClass" />
         <item itemvalue="Application.SchedulerioClass" />
         <item itemvalue="Application.ComputationSchedulerClass" />
         <item itemvalue="Application.NewThreadClass" />
-        <item itemvalue="Application.TrampolineSchedulerClass" />
       </list>
     </recent_temporary>
   </component>
@@ -330,18 +322,18 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18196371" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18196371" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.403452" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.403452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3279396" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3279396" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32938644" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -546,7 +538,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/TrampolineSchedulerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
+          <caret line="31" column="5" selection-start-line="22" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -556,7 +548,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/NewThreadClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/SchedulersIOClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -565,18 +567,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/ComputationSchedulerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="471">
+          <caret line="33" selection-start-line="11" selection-start-column="4" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/SchedulerioClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Schedulers/SchedulerFromExcutorClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
